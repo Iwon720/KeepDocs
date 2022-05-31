@@ -1,0 +1,19 @@
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: #77787c;
+    border: 1px solid #cdd9ed;
+    background: #eef4ff;
+    transition: border 0.3s ease;
+}
+.form-field:focus {
+    outline: none;
+    border-color: #1976d2;
+}
